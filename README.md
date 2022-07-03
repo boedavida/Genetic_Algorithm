@@ -3,4 +3,4 @@ A genetic algorithm or evolutionary algorithm in Matlab/Octave that solves the k
 
 The code was written in Matlab version 2015a. No additional toolboxes are required.
 
-The executive file is ga.m. Open ga.m in an application that is capable of running Matlab or Octave code. Run ga.m. The answer is output to the command window, and two figures are produced, maximum fitness score vs. generation and average fitness score vs. generation.
+The code is a script named ga.m. Open ga.m in an application that is capable of running Matlab or Octave code. Run ga.m. The answer is output to the command window, and two figures are produced, maximum fitness score vs. generation and average fitness score vs. generation.
