@@ -128,17 +128,3 @@ title('Average fitness score vs. generation')
 xlabel('Generation')
 ylabel('Ave. fitness score')
 
-% EXTRAS ------------------			
-% zerosOnes = rand01(mutProb,nObjs);
-% popChromosomesNextGen(2*k-1,:) = mod(popChromosomes(parent1,:) + zerosOnes,2);
-% zerosOnes = rand01(mutProb,nObjs);
-% popChromosomesNextGen(2*k,:) = mod(popChromosomes(parent2,:) + zerosOnes,2);						
-
-
-		%for k = 1:(nPop/2) 
-		%	Mutation
-		%	zerosOnes = rand01(mutProb,nObjs);
-		%	popChromosomesNextGen(2*k-1,(zerosOnes == 1)) = randi(maxInt+1,[1,sum(zerosOnes)]) - 1;
-		%	zerosOnes = rand01(mutProb,nObjs);
-		%	popChromosomesNextGen(2*k,(zerosOnes == 1)) = randi(maxInt+1,[1,sum(zerosOnes)]) - 1;				
-		%end
